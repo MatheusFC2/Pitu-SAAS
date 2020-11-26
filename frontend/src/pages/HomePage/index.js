@@ -7,6 +7,7 @@ import {Container, InputGroup, FormControl, Button, Spinner, Alert} from 'react-
 import Header from '../../components/Header';
 import { ContentContainer, Form, AdsBlock } from './styles';
 import shortenerService from '../../services/shortenerService';
+import vars from '../../configs/vars';
 
 function HomePage() {
   const [isLoading, setIsLoading] = useState(false);
@@ -69,7 +70,7 @@ function HomePage() {
                 <InputGroup className="mb-3">
                   <FormControl
                     autoFocus={true}
-                    defaultValue={`http://localhost:3000/${code}/stats`}
+                    defaultValue={vars.HOST_APP + code}
                     ref={(input) => setInputURL(input)}
                   />
                   <InputGroup.Append>
@@ -82,8 +83,7 @@ function HomePage() {
                   </InputGroup.Append>
                 </InputGroup>
                 <p>
-                  Para acompanhar as estatísticas, acesse http://localhost:3000/
-                  {code}/stats
+                  Para acompanhar as estatísticas, acesse {vars.HOST_APP + code}
                 </p>
               </>
             )
