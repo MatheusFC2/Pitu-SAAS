@@ -1,2 +1,2 @@
-DB_CONNECTION="mysql://root:Math1asFC@DevHacking@localhost:3306/pitu"
+DB_CONNECTION="mysql://<USUARIO>:<SENHA_MY_SQL>@<SUA_URL>:3306/<NOME_DO_BANCO_DE_DADOS>"
 PORT=3306
