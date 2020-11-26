@@ -55,7 +55,7 @@ Essa aplicação foi realizada durante a **Semana Full Stack JS**, projeto do pr
 1. Faça um clone do repositório:
 
 ```sh
-  $ git clone https://github.com/jralima/Pitu.git
+  $ git clone https://github.com/MatheusFC2/Pitu-SAAS.git
 ```
 
 2. Executando a Aplicação:
