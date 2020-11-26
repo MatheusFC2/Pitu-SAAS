@@ -93,5 +93,3 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 ---
 <sup>Projeto desenvolvido com a tutoria de [Luiz Duarte](https://github.com/luiztools), da [LuizTools](https://www.luiztools.com.br).</sup>
 
-<img alt="Pituhomepage" src="./homepage.png" height="100px" />
-<img alt="Pituviews" src="./Pitu-views.png" height="100px" />
