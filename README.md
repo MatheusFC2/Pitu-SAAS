@@ -83,7 +83,7 @@ Essa aplicação foi realizada durante a **Semana Full Stack JS**, projeto do pr
 
 ## e-Books:
 
-- [Frontend para iniciantes](https://github.com/jralima/pitu/blob/main/docs/frontend-para-iniciantes.pdf)
+- [Frontend para iniciantes](https://github.com/MatheusFC2/Pitu-SAAS/blob/master/docs/frontend-para-iniciantes.pdf)
 
 
 ## :memo: Licença
