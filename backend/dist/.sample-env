@@ -1,0 +1,2 @@
+DB_CONNECTION="mysql://root:Math1asFC@DevHacking@localhost:3306/pitu"
+PORT=3306
