@@ -8,6 +8,7 @@ import ptBR from 'date-fns/locale/pt-BR';
 import { StatsContainer, StatsRow, StatsBox, StatsBoxTitle } from './styles';
 import Header from '../../components/Header';
 import shortenerService from '../../services/shortenerService';
+import vars from '../../configs/vars';
 
 function StatsPage(props) {
   const [isLoading, setIsLoading] = useState(false);
@@ -79,7 +80,7 @@ function StatsPage(props) {
             shortenedURL && (
               <>
                 <p>
-                  <b>http://localhost:3000/{shortenedURL.code}</b>
+                  <b>{vars.HOST_APP+ shortenedURL.code}</b>
                 </p>
                 <p>
                   Redireciona para: <br />
